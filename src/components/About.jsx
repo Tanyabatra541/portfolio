@@ -47,13 +47,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Hello! As a full-stack developer, I'm well-versed in TypeScript,
-        JavaScript, and adept in frameworks like React, Node.js, Three.js, and
-        Next.js. My approach blends technical skill with a playful creativity,
-        ensuring each project is not just functional but also engaging. I excel
-        in turning complex ideas into intuitive, user-friendly solutions, and I
-        relish the chance to collaborate and bring innovative concepts to life.
-        Let’s connect and transform vision into a vibrant digital reality!
+        Hi! I'm an ambitious Software Engineer pursuing a Master's in Computer Science at Northeastern University. 
+        With hands-on experience from impactful internships, I specialize in crafting innovative solutions, excelling in 
+        software development and design. Eager to contribute to cutting-edge projects that shape the future of technology, 
+        my unique blend of skills and enthusiasm sets me apart. Known for collaborative problem-solving and creating seamless 
+        software solutions, I'm ready to take on dynamic roles that fuel my passion for innovation. Explore how my expertise 
+        can elevate your team's success!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

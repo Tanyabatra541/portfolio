@@ -45,15 +45,15 @@ const services = [
     icon: creator,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Data Scientist",
     icon: web,
   },
   {
-    title: "Product Management",
+    title: "UI/UX Designer",
     icon: mobile,
   },
 ];
@@ -115,50 +115,51 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Software Developer",
-    company_name: "Decision Point Analytics",
-    company_url: "https://decisionpoint.ai/",
+    title: "Software Engineer Intern",
+    company_name: "Simplify 3x Software Private Limited",
+    company_url: "https://www.simplify3x.com/",
     icon: DecisionPointAnalytics,
     iconBg: "#E4E4E4",
-    date: "June 2021 - July 2023",
+    date: "January 2023 - April 2023",
     points: [
-      `Beagle: Spearheaded the front-end development of Beagle, a Microsoft Teams-integrated conversational BI tool using GPT-4, integrating backend REST APIs for enhanced data interaction. This pivotal revenue-generating scalable enterprise infrastructure contributed to $5M in revenue and secured consecutive ’App of the Year’ awards for two years.`,
-      "Beagle Charts: Engineered a versatile charts library, incorporating D3.js, Highcharts, and Chart.js utilizing plain JSON data to offer over 25 unique chart options. This innovation led to an impressive 80% surge in user engagement through advanced data visualization technique",
-      "Hubble: Spearheaded the redevelopment of Hubble, an RGM capability demonstration tool. Implemented streamlined programming development processes, resulting in a 25% reduction in development time and a 30% reduction in reported bugs on Jira while maintaining technical documentation and testing all use cases, enhancing overall team efficiency. This strategic enhancement led to a more engaging user experience and a substantial 42% increase in lead generation",
-      "CONA: Led frontend development for a resource availability forecasting project with a Fortune 500 company. My leadership and focus on timely, high-quality deliverables fostered an extended partnership.",
+      "Created and maintained custom Python packages and APIs, achieving a 25% improvement in access management efficiency. This ensured streamlined operations and enabled efficient collaboration across multiple organizations",
+      "Engineered and executed a specialized backend API, facilitating seamless access, management, and safeguarding of individual projects, groups, and repositories for enterprise clients",
+      "Resulted in a 30% increase in user accessibility, data privacy, and platform satisfaction",
+      "Leveraged Postman extensively for thorough API testing, attaining an 89% success rate to ensure smooth functionality and user-friendly access control",
+      "Implemented a structured parent-child class hierarchy, reducing data segregation issues by 80% enhancing organizational data management efficiency"   
     ],
   },
   {
-    title: "Co Founder & CTO",
-    company_name: "Elev8 Solar",
-    company_url: "https://elev8solar.in/",
+    title: "UI/UX Designer Intern",
+    company_name: "IoTAGI - Redefining Things",
+    company_url: "#",
     icon: Elev8Solar,
     iconBg: "#E4E4E4",
-    date: "May 2022 - July 2023",
+    date: "June 2022 - August 2023",
     points: [
-      "Developed a data-driven product with product design strategies, using modern technologies to boost user interaction and accuracy, resulting in a 40% rise in user engagement",
-      "Generated $50,000 in revenue and led a 10+ member team, demonstrating early financial success and rapid growth",
+      "Upgraded website performance, boosting engagement by 20%, reducing bounce rate by 15%, and speeding up page loads by 30% through wire framing",
+      "Elevated brand attractiveness by crafting appealing logos and cards, leading to a 10% increase in brand visibility and greater interest with effective design principles",
     ],
   },
   {
-    title: "Web Developer & Designer",
-    company_name: "Shopify",
-    company_url: "#",
+    title: "Software Developer Intern",
+    company_name: "Qatar Computing Research Institute",
+    company_url: "https://www.hbku.edu.qa/en/qcri/about",
     icon: Freelancer,
     iconBg: "#E4E4E4",
-    date: "August 2020 - June 2021",
+    date: "August 2021 - June 2021",
     points: [
-      "Delivered and launched multiple web applications, such as e-commerce platforms and healthcare websites, leading to a remarkable revenue increase of over $5 million for clients",
-      "Led UI/UX design projects with tools like Figma, resulting in a significant boost in user engagement, a substantial uptick in user satisfaction, and a notable 30% increase in traffic",
+      "Orchestrated functional web pages with HTML, CSS, JavaScript, Charts.js, and React.js, boosting real-time engagement by 73%. Improved efficiency in categorizing tweets by 84% using Elasticsearch queries",
+      "Crafted an interactive front-end interface for better visualization of false information trends, increasing user engagement and comprehension by 81%. This enhancement refined the analysis of extensive misinformation data-sets",
     ],
   },
 ];
 
 const projects = [
   {
-    name: "Hubble",
+    name: "Image Editor",
     description:
-      "Hubble - RGM Capability Demonstration Tool is a dynamic web application developed for Decision Point Analytics. It exemplifies advanced data analytics in retail growth management, showcasing interactive data visualizations and predictive modeling. This tool highlights Decision Point's expertise in leveraging data for strategic retail insights, emphasizing user-friendly interfaces and actionable analytics. It serves as a practical demonstration of how Decision Point translates complex data into clear, impactful business strategies for retail growth and market analysis.",
+      "This website is a crafted a sophisticated Java-based Image Processing app with Object-Oriented Design, MVC architecture, Builder pattern, and Java Swing for collaborative development. It achieved a remarkable 70% reduction in integration time, showcasing precision and sophistication in software engineering through an intuitive interface and modular image manipulation.",
     tags: [
       {
         name: "react",
@@ -174,12 +175,12 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://hubble-staging.decisionpoint.in/",
+    source_code_link: "https://github.com/Tanyabatra541/Assignment4_MVC",
   },
   {
-    name: "Covid Tracking Dashboard",
+    name: "Event Management System",
     description:
-      "Web Application platform designed to provide real-time updates and data analysis related to the COVID-19 pandemic. It offers users access to current statistics, including infection rates, testing data, vaccination progress, and more. This website serves as a valuable resource for staying informed about the latest developments in the ongoing health crisis, with user-friendly features that make it easy to navigate and understand the pandemic's impact on a global and local scale.",
+      "Implemented a feature-rich social media app with a 20% increase in user interaction, ensuring seamless access for users. Engineered streamlined event processes and an intuitive profile section for enhanced user experience",
     tags: [
       {
         name: "react",
@@ -198,9 +199,9 @@ const projects = [
     source_code_link: "https://covidtrackernitish.netlify.app/",
   },
   {
-    name: "College Management ERP",
+    name: "Handwritten Equation Solver ",
     description:
-      "College Management ERP is a comprehensive digital solution tailored for educational institutions. It streamlines and automates various administrative tasks within colleges, including student enrollment, attendance tracking, course management, and financial administration. This platform simplifies complex processes, enhances communication among students, faculty, and administrators, and provides data-driven insights to optimize decision-making. It is a powerful tool for modernizing and efficiently managing all aspects of college operations in one centralized platform.",
+      "Created a web app for solving handwritten math equations with 93.5% accuracy using Python, HTML, and JavaScript. Automated equation detection in the application, enhancing user convenience and proving high impact for math enthusiasts and learners.",
     tags: [
       {
         name: "php",
@@ -216,7 +217,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/nitishahuja/CollegeManagementERP",
+    source_code_link: "https://github.com/Tanyabatra541/Handwritten_Equation_Solving_System",
   },
 ];
 
