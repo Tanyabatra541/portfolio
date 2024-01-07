@@ -159,18 +159,18 @@ const projects = [
   {
     name: "Image Editor",
     description:
-      "This website is a crafted a sophisticated Java-based Image Processing app with Object-Oriented Design, MVC architecture, Builder pattern, and Java Swing for collaborative development. It achieved a remarkable 70% reduction in integration time, showcasing precision and sophistication in software engineering through an intuitive interface and modular image manipulation.",
+      "Crafted a sophisticated Java-based Image Processing app, leveraging Object-Oriented Design, MVC architecture, Builder pattern, and Java Swing for collaborative development. Achieved a remarkable 70% reduction in integration time, showcasing precision and sophistication in software engineering. The application features modular image manipulation, setting a new standard for seamless user experiences in image processing.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "swing",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "junit",
         color: "pink-text-gradient",
       },
     ],
@@ -180,39 +180,39 @@ const projects = [
   {
     name: "Event Management System",
     description:
-      "Implemented a feature-rich social media app with a 20% increase in user interaction, ensuring seamless access for users. Engineered streamlined event processes and an intuitive profile section for enhanced user experience",
+      "Implemented a feature-rich social media app, securing a 20% increase in user interaction while ensuring seamless access. Engineered streamlined event processes and an intuitive profile section, enhancing the overall user experience. The app introduces innovative event navigation and user-friendly profile management, delivering an engaging and accessible social media platform.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://covidtrackernitish.netlify.app/",
-  },
-  {
-    name: "Handwritten Equation Solver ",
-    description:
-      "Created a web app for solving handwritten math equations with 93.5% accuracy using Python, HTML, and JavaScript. Automated equation detection in the application, enhancing user convenience and proving high impact for math enthusiasts and learners.",
-    tags: [
-      {
-        name: "php",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "ajax",
+        name: "node",
         color: "green-text-gradient",
       },
       {
         name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobit,
+    source_code_link: "https://main--wonderful-tarsier-4c5895.netlify.app/#/",
+  },
+  {
+    name: "Handwritten Equation Solver ",
+    description:
+      "Created a web app for solving handwritten math equations with an impressive 93.5% accuracy. Developed using Python, HTML, and JavaScript, the application includes automated equation detection, significantly enhancing user convenience. This impactful solution caters to math enthusiasts and learners, providing a user-friendly platform for efficient problem-solving and learning.",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "html",
         color: "pink-text-gradient",
       },
     ],
