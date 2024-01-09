@@ -37,6 +37,11 @@ const ServiceCard = ({ index, title, icon }) => (
 
 const About = () => {
   return (
+    <>
+     <div
+        id="about"
+        style={{ position: "relative", top: "-100px", visibility: "hidden" }}
+      ></div>
     <section id="about">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
@@ -61,6 +66,7 @@ const About = () => {
         ))}
       </div>
     </section>
+    </>
   );
 };
 

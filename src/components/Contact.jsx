@@ -70,6 +70,11 @@ const Contact = () => {
   };
 
   return (
+    <section>
+      <div
+        id="contact"
+        style={{ position: "relative", top: "-100px", visibility: "hidden" }}
+      ></div>
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
       id="contact"
@@ -136,6 +141,7 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
     </div>
+    </section>
   );
 };
 
