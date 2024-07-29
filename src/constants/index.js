@@ -124,13 +124,27 @@ const experiences = [
     company_url: "https://www.simplify3x.com/",
     icon: DecisionPointAnalytics,
     iconBg: "#E4E4E4",
+    date: "May 2024 - Present",
+    points: [
+      "Spearheading key functionalities for the iOS Halfgram app, utilizing React Native for the front end, Node.js for the backend, and Firebase for real-time database management and authentication",
+      "Engineering advanced audio recording and posting features using react-native-ffmpeg for high-quality processing and integrating Firebase Storage for seamless data management",
+      "Utilizing Google Cloud Speech-to-Text API to transcribe user recordings and develop a recommendation system using NLP libraries, expected to improve transcription accuracy by 85% and title relevance by 90%",
+      "Revamping the UI and introducing new screens for the iOS mobile app, utilizing React Native components and Styling Libraries like React Native Paper and React Native Elements, projected to enhance user retention by 40%",
+    ],
+  },
+  {
+    title: "Software Engineer Intern",
+    company_name: "Simplify 3x Software Private Limited",
+    company_url: "https://www.simplify3x.com/",
+    icon: DecisionPointAnalytics,
+    iconBg: "#E4E4E4",
     date: "January 2023 - April 2023",
     points: [
-      "Created and maintained custom Python packages and APIs, achieving a 25% improvement in access management efficiency. This ensured streamlined operations and enabled efficient collaboration across multiple organizations",
-      "Engineered and executed a specialized backend API, facilitating seamless access, management, and safeguarding of individual projects, groups, and repositories for enterprise clients",
-      "Resulted in a 30% increase in user accessibility, data privacy, and platform satisfaction",
-      "Leveraged Postman extensively for thorough API testing, attaining an 89% success rate to ensure smooth functionality and user-friendly access control",
-      "Implemented a structured parent-child class hierarchy, reducing data segregation issues by 80% enhancing organizational data management efficiency"   
+      "Designed and implemented DevOpsArk, a Django and React-based platform for optimization of Dev Ops pipelines through dynamic content delivery and real-time updates via WebSocket, significantly improving operational efficiency.",
+      "Developed robust Python REST APIs secured with JWT and utilizing JSON for data serialization, leading to a 40% reduction in unauthorized access and bolstering platform scalability with Docker Containerization and automated CI/CD pipelines",
+      "Created an innovative Role-Based Access Control System using Flask-RBAC and SQLAlchemy, which streamlined user permissions and access management, setting a new standard in access control.",
+      "Enhanced performance improvements and search capabilities by 30% with Kafka and Elasticsearch integration, reducing manual oversight and manual documentation",
+      "Optimized deployment and infrastructure management workflows using GitLab CI and Kubernetes, significantly enhancing deployment frequency and ensuring system stability through advanced automation and orchestration techniques."   
     ],
   },
   {
@@ -151,10 +165,12 @@ const experiences = [
     company_url: "https://www.hbku.edu.qa/en/qcri/about",
     icon: Freelancer,
     iconBg: "#E4E4E4",
-    date: "August 2021 - June 2021",
+    date: "May 2021 - July 2021",
     points: [
-      "Orchestrated functional web pages with HTML, CSS, JavaScript, Charts.js, and React.js, boosting real-time engagement by 73%. Improved efficiency in categorizing tweets by 84% using Elasticsearch queries",
-      "Crafted an interactive front-end interface for better visualization of false information trends, increasing user engagement and comprehension by 81%. This enhancement refined the analysis of extensive misinformation data-sets",
+      "Developed a progressive web app (PWA) for a multilingual fake news detection product using Angularjs, and GraphQL, enhancing SEO and user interaction cross-functionally for 10,000+ articles in 4+ languages, demonstrating problem-solving skills",
+      "Boosted user engagement from 50% to 86% through interactive ChartsJS visualizations within a React Native framework, leveraging Bootstrap and Tailwind CSS for responsive, stylish design to visualize the fake news detected through graphs",
+      "Tripled data processing execution with Elastic Search for scalable searches, ensuring solutions to quick analysis of disinformation",
+      "Enhanced content analysis precision with the Tanbih API, employing Node for a scalable backend and modern web technologies like HTML5, CSS3, and JavaScript ES6+ for a robust, intuitive front end experience for the fast-paced market",
     ],
   },
 ];
