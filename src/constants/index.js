@@ -119,8 +119,8 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company_name: "Simplify 3x Software Private Limited",
+    title: "Full stack Developer Intern",
+    company_name: "Soma Reality",
     company_url: "https://www.simplify3x.com/",
     icon: DecisionPointAnalytics,
     iconBg: "#E4E4E4",
