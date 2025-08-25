@@ -119,6 +119,21 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Engineer",
+    company_name: "Dispatch Technologies",
+    company_url: "https://dispatch.me/",
+    icon: DecisionPointAnalytics,
+    iconBg: "#E4E4E4",
+    date: "January 2025 - June 2025",
+    points: [
+      "Engineered core enhancements to Dispatch Technologies' Service Orchestration Platform, optimizing job management, service provider allocation, and mobile workflow automation through scalable React, React Native, Ruby on Rails, and Golang solutions",
+      "Redesigned the job acceptance process by implementing a modal-driven workflow with dynamic UI updates and API synchronization, enabling real-time approvals, reducing code redundancy by 30%, and improving operational efficiency",
+      "Developed an automated photo-naming system in React Native for technician service forms in a mobile app (iOS & Android), leveraging logic-based UI control to assign labels or timestamps, minimizing naming inconsistencies across 95% of uploads",
+      "Engineered two GitHub Actions workflows — one for weekly Terraform drift checks across stacks (EKS, CloudFront, WAF) with Slack notifications, and another to trigger Docker image updates automatically to the latest version",
+      "Led x86 to ARM migration efforts for multiple production services and implemented KEDA-based event-driven auto-scaling across key workloads, enhancing performance efficiency and reducing compute overhead in containerized environments",
+    ],
+  },
+  {
     title: "Full stack Developer Intern",
     company_name: "Soma Reality",
     company_url: "https://www.simplify3x.com/",
@@ -144,19 +159,7 @@ const experiences = [
       "Developed robust Python REST APIs secured with JWT and utilizing JSON for data serialization, leading to a 40% reduction in unauthorized access and bolstering platform scalability with Docker Containerization and automated CI/CD pipelines",
       "Created an innovative Role-Based Access Control System using Flask-RBAC and SQLAlchemy, which streamlined user permissions and access management, setting a new standard in access control.",
       "Enhanced performance improvements and search capabilities by 30% with Kafka and Elasticsearch integration, reducing manual oversight and manual documentation",
-      "Optimized deployment and infrastructure management workflows using GitLab CI and Kubernetes, significantly enhancing deployment frequency and ensuring system stability through advanced automation and orchestration techniques."   
-    ],
-  },
-  {
-    title: "UI/UX Designer Intern",
-    company_name: "IoTAGI - Redefining Things",
-    company_url: "#",
-    icon: Elev8Solar,
-    iconBg: "#E4E4E4",
-    date: "June 2022 - August 2023",
-    points: [
-      "Upgraded website performance, boosting engagement by 20%, reducing bounce rate by 15%, and speeding up page loads by 30% through wire framing",
-      "Elevated brand attractiveness by crafting appealing logos and cards, leading to a 10% increase in brand visibility and greater interest with effective design principles",
+      "Optimized deployment and infrastructure management workflows using GitLab CI and Kubernetes, significantly enhancing deployment frequency and ensuring system stability through advanced automation and orchestration techniques.",
     ],
   },
   {
@@ -237,7 +240,8 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/Tanyabatra541/Handwritten_Equation_Solving_System",
+    source_code_link:
+      "https://github.com/Tanyabatra541/Handwritten_Equation_Solving_System",
   },
 ];
 
