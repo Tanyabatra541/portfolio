@@ -243,6 +243,28 @@ const projects = [
     source_code_link:
       "https://github.com/Tanyabatra541/Handwritten_Equation_Solving_System",
   },
+  {
+    name: "Notion Clone",
+    description:
+      "Developed a full-stack web application using MongoDB for data storage, Express for middleware, Node.js for backend CRUD, and TypeScript for the frontend, integrating Bootstrap for styling and Figma for UI/UX design. Secured with OAuth authentication, implemented OTP using Nodemailer, and integrated external APIs like Google Analytics",
+    tags: [
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "node",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link:
+      "https://notion-clone-inky-one.vercel.app/",
+  },
 ];
 
 export { services, technologies, experiences, projects };
